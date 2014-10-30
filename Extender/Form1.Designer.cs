@@ -62,6 +62,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Rename";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox2
             // 
@@ -69,6 +70,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(286, 22);
             this.textBox2.TabIndex = 3;
+            this.textBox2.Text = ".txt";
             // 
             // label1
             // 
